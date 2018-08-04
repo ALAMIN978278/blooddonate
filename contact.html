@@ -1,0 +1,82 @@
+
+<html>
+<head>
+<style>
+    
+body {font-family: Arial, Helvetica, sans-serif;
+    background-color:mediumslateblue;  
+    }
+input[type=text],select,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: skyblue;
+    padding-top: 40px;
+    margin: auto;    
+    width: 50%;
+    padding-bottom: 40px;
+}
+  
+h2  {
+        text-align: center;
+    }
+form{
+        width: 70%;
+        margin: auto;
+    }
+</style>
+</head>
+<body>
+
+
+<div class="container">
+           
+            <form action="/action_page.php">
+                       <h2>CONTACT ME</h2><hr>
+                        <label for="fname">Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="lname">Email</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your email id..">
+                        <label for="lname">Phone</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your Phone Number..">
+                        <label for="country">Division</label>
+
+                        <select id="country" name="country">
+                                <option value="australia">Dhaka</option>
+                                <option value="canada">Rajshahi</option>
+                                <option value="usa">Sylet</option>
+                                <option value="usa">Comilla</option>
+                                <option value="usa">Mymensingh</option>
+                                <option value="usa">Rangpur</option>
+                                <option value="usa">Khulna Division</option>
+                                <option value="usa">Chattogram</option>
+                        </select>
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        <a href="contact111.html"><input type="button" value="SUBMIT"></a>
+            </form>
+</div>
+</body>
+</html>

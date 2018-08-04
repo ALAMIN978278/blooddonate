@@ -1,0 +1,366 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.main-content{
+    margin-top: -50px;
+}
+
+.main-content .websitename {
+    background-color: lightgreen;
+    margin: 0;
+    padding: 0;
+}
+.main-content .websitename .row{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+.main-content .websitename .row .col {
+    padding: 0;
+}
+
+.websitename .web {
+    float: left;
+    width: 100%;
+}
+.websitename .web h3 {
+    font-size: 20;
+    line-height: 1.6;
+    font-weight: bold;
+}
+.websitename .web1 {
+    float: right;
+    text-align: center;
+    width: 100%;
+}
+.websitename .web1 h4 {
+    font-size: 16;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+/*Navbar..................*/
+
+
+
+.navbar{
+background:red;
+width: 100%;
+display: table;
+padding: 0;
+    margin: auto;
+}
+
+.navbar ul {
+margin: 0;
+padding: 0;
+list-style: none;
+position: relative;
+text-align: center;
+}
+
+
+.navbar ul li a {
+display: block;
+padding: 10px; 
+color: white;
+text-decoration: none;
+width: 150px;
+
+}
+
+.navbar ul:after {
+content: "";clear:both;
+display: block;
+}
+
+.navbar ul li{
+float: left;
+list-style: none;
+}
+
+.navbar ul ul {
+    display: none;
+}
+
+.navbar ul li:hover ul{
+    display: block;
+
+}
+
+.navbar ul li:hover {
+    background: black;
+}
+
+.navbar ul li ul li {
+    width: 150px;
+    text-align: center;
+}
+
+.navbar ul ul{
+    background: red;
+    padding: 0;
+    margin: 0;
+    position: absolute; 
+    top: 100%;
+}
+
+.navbar ul ul li{
+    float: none;
+    position: relative;
+}
+
+.navbar ul ul li a{
+    color:white;
+    font-size: 12;
+}
+
+.navbar ul ul li a:hover {
+    background:black;
+    color: greenyellow;
+
+}
+
+/*END NAVBAR..................*/
+
+.scrol-header1 h2{
+    color: red;
+}
+
+.scrol-header1 p{
+    color: red;
+    background: 
+}
+
+
+.rule h2 {
+    color: limegreen;
+    font-size: 22;
+    text-decoration: underline;
+}
+
+
+.rule p {
+    color:black;
+    font-size: 14;
+    
+}
+
+
+.rule h1 {
+  color: red;
+    
+}
+
+#backgrould001 {
+    color: red;
+    font-weight: bold;
+    font-size: 16;
+    padding: 10px 0 ;
+    background: white;
+}
+
+/*Table..................*/
+
+
+
+.scrol-body table,th,td
+{
+    border:3px solid #333 ;
+
+}
+.scrol-body table
+{
+    border-collapse:collapse;
+    color: black;
+    width:100%;
+}
+.scrol-body td
+{
+    height:50px;
+    font-size: 14;
+    padding: 8px;
+    color: black;
+
+}
+.scrol-body tr
+{
+    color:white;
+}
+.scrol-body th
+{
+    background-color:black;
+    color:white;
+    line-height: 40px;
+    text-align: center;
+}
+
+.scrol-body td{
+    background-color:#444;
+    color: white;
+
+
+}
+/*End Table..................*/
+
+/*footer..................*/
+
+.column h4{
+    text-align: center;
+    padding: 10px;
+    background: red;
+    color: white;
+    width: 100%;
+    font-size: 16;
+    margin-bottom: 15px;
+    
+}
+
+.column {
+    background-color:#A9A9A9;
+    padding: 10px;
+}
+.footer{
+    background-color:#4A4348;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    overflow: auto;
+}
+
+form input{
+    margin: 15px;
+    font-size: 18;
+    width: 70px;
+    height: 40px;
+    text-decoration: none;
+}
+
+#link{
+    margin-left: 37%;
+}
+
+#link ul li{
+    float: left;
+    padding: 20px;
+    list-style: none;
+}
+
+#link ul li a{
+    text-decoration: none;
+
+}
+
+/*footer end ..................*/
+
+.continer{
+    display: table; 
+}
+
+/*start  ..................*/
+
+.container{
+    width:100%;
+    margin:50px auto 0;
+    display:table;
+    box-sizing:border-box;
+}
+
+.row{
+    margin:10px 0;
+}
+
+.column{
+    display:table-cell;
+    padding:25px;
+    width:33.3333%;
+    text-align:justify;
+    color:black;
+    vertical-align:middle;
+    border-left:10px solod black;
+    border-right:10px solod black;
+
+}
+
+#slider{
+
+    overflow: hidden;
+
+}
+
+#slider  img{
+    width:100%; 
+    height: 500px;
+}
+#slider{
+    width:100%;
+}
+
+
+.search-bar input {
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+    width: 400px;
+}
+
+.findBloodGroup {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.findBloodGroup{
+    width: 100%;
+    margin: auto;
+}
+
+.findBloodGroup ul li{
+    display: none;
+}
+
+.findBloodGroup a {
+    color: #fff;
+}
+
+.right { float: right; }
+.images h3{
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    font-size: 36;
+}
+.images .row{
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.images .row .col{
+    padding: 0;
+}
+
+.images .row img{
+    width: 100%;
+    height: 220px;   
+}
+.page{
+    text-align: center;
+    width: 100%;
+}
+
+.page ul li a {
+    padding: 5px; 
+    color:red;
+    text-decoration: none;
+}
+.page ul li{
+    list-style: none;
+    display: inline-block;
+}
+.rule p{
+    font-size: 16;
+}
+
+
